@@ -1,31 +1,32 @@
+"use strict";
 function saludar(nombre) {
-    return "Hola ".concat(nombre.toUpperCase());
+    return `Hola ${nombre.toUpperCase()}`;
 }
 console.log(saludar('luis'));
 //**************************TIPOS PRIMITIVOS*************************
 //boolean
-var isVerdadero = false;
+let isVerdadero = false;
 //number
-var entero = 44;
-var decimal = 20.05;
-var hexadecimal = 0xcbcbaa;
-var octal = 0700;
-var binario = 010000001;
+let entero = 44;
+let decimal = 20.05;
+let hexadecimal = 0xcbcbaa;
+let octal = 0o700;
+let binario = 0o10000001;
 //puedes usar guion bajo para leerlo facilmente
-var numberoLargo = 7100288;
+let numberoLargo = 7100288;
 console.log(numberoLargo);
 //string
-var saludo = 'hola';
+let saludo = 'hola';
 //******************TIPOS PRIMITIVOS DE TYPESCRIPT*************************
 //any
 // toman cualquier tipo de valor, no usar nunca;
-var unaVariable;
+let unaVariable;
 unaVariable = 'hola';
 unaVariable = false;
 //null
 //Solo puedes asignar null
-var nada = null;
+let nada = null;
 //undefined
-var indefinido = undefined;
+let indefinido = undefined;
 //void
-var unaFuncion = function () { return console.log('ejecutando'); };
+const unaFuncion = () => console.log('ejecutando');
