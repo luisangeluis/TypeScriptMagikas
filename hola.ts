@@ -1,5 +1,5 @@
 function saludar(nombre: string): string {
-  return `Hola ${nombre.toUpperCase()}`;
+  return `hi ${nombre.toUpperCase()}`;
 }
 
 console.log(saludar('luis'));

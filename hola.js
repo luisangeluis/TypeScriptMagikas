@@ -1,6 +1,6 @@
 "use strict";
 function saludar(nombre) {
-    return `Hola ${nombre.toUpperCase()}`;
+    return `hi ${nombre.toUpperCase()}`;
 }
 console.log(saludar('luis'));
 //**************************TIPOS PRIMITIVOS*************************
